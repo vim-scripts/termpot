@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4333
+
+Based on "inkpot". Only works in a terminal with 256 colors, such as XTerm.
+
+Screenshots:
+
+ * 1.0: http://www.uninformativ.de/gal/desktop/2012-12-02--vim-termpot.png
+ * 1.2: http://www.uninformativ.de/gal/desktop/2013-07-14--vim-termpot-1.2.png
+
+See also: https://github.com/vain/dotfiles-pub/blob/master/.vim/colors/termpot.vim
