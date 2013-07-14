@@ -1,8 +1,8 @@
 " Vim color file
 " File:         termpot.vim
 " Maintainer:   Peter Hofmann
-" Version:      1.0
-" Last Change:  2012-12-02
+" Version:      1.2
+" Last Change:  2013-07-14
 " Contributors: Anyone who contributed to the original "inkpot" scheme.
 
 set background=dark
@@ -23,7 +23,7 @@ hi  MoreMsg         cterm=BOLD  ctermfg=63
 hi  Question        cterm=BOLD  ctermfg=214
 hi  StatusLine      cterm=BOLD  ctermfg=244  ctermbg=235
 hi  StatusLineNC    cterm=NONE  ctermfg=244  ctermbg=235
-hi  VertSplit       cterm=NONE  ctermfg=244  ctermbg=238
+hi  VertSplit       cterm=NONE  ctermfg=235  ctermbg=235
 hi  WildMenu        cterm=BOLD  ctermfg=214  ctermbg=232
 
 hi  DiffText        cterm=NONE  ctermfg=229  ctermbg=34
@@ -31,16 +31,12 @@ hi  DiffChange      cterm=NONE  ctermfg=229  ctermbg=27
 hi  DiffDelete      cterm=NONE  ctermfg=229  ctermbg=124
 hi  DiffAdd         cterm=NONE  ctermfg=229  ctermbg=34
 
-hi  Cursor          cterm=NONE  ctermfg=237  ctermbg=63
-hi  lCursor         cterm=NONE  ctermfg=237  ctermbg=63
-hi  CursorIM        cterm=NONE  ctermfg=237  ctermbg=63
-
 hi  Folded          cterm=BOLD  ctermfg=130  ctermbg=233
 hi  FoldColumn      cterm=NONE  ctermfg=61   ctermbg=232
 
 hi  Directory       cterm=NONE  ctermfg=47   ctermbg=NONE
 hi  LineNr          cterm=BOLD  ctermfg=237  ctermbg=233
-hi  NonText         cterm=NONE  ctermfg=52   ctermbg=NONE
+hi  NonText         cterm=NONE  ctermfg=52   ctermbg=16
 hi  SpecialKey      cterm=NONE  ctermfg=52   ctermbg=NONE
 hi  Title           cterm=BOLD  ctermfg=130  ctermbg=232
 hi  Visual          cterm=NONE  ctermfg=232  ctermbg=215
@@ -63,5 +59,8 @@ hi  Todo            cterm=BOLD  ctermfg=237  ctermbg=63
 hi  Type            cterm=NONE  ctermfg=207  ctermbg=NONE
 hi  Underlined      cterm=BOLD  ctermfg=229  ctermbg=NONE
 hi  TaglistTagName  cterm=BOLD  ctermfg=37   ctermbg=NONE
+
+hi  CursorLineNr    ctermfg=11  ctermbg=233
+hi  CursorLine      cterm=NONE
 
 hi  ColorColumn     ctermbg=233
